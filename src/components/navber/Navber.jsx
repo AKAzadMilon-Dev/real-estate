@@ -21,7 +21,7 @@ const Navber = () => {
     });
   }, []);
   return (
-    <nav>
+    <nav >
       <Container>
         <div className=" navber flex items-center gap-x-12 py-5">
           <div>
@@ -30,43 +30,43 @@ const Navber = () => {
             </Link>
           </div>
           <div className="flex w-[100%] items-center justify-between">
-            <List className="flex items-center justify-center gap-x-6 text-white">
-              <Listitem itemname="Home" />
-              <Listitem itemname="Our Property" />
-              <Listitem itemname="Agent" />
-              <Listitem itemname="Blog" />
+            <List className="flex items-center justify-center gap-x-6 font-poppins text-xl font-medium text-black ">
+              <Listitem className="hover:text-primary" itemname="Home" />
+              <Listitem
+                className="hover:text-primary"
+                itemname="Our Property"
+              />
+              <Listitem className="hover:text-primary" itemname="Agent" />
+              <Listitem className="hover:text-primary" itemname="Blog" />
             </List>
             <div className="flex gap-x-8">
               <Dropdwon
                 title="Eng"
                 dropRef={lanRef}
-                className="relative flex cursor-pointer items-center gap-x-5 text-white "
+                className="relative flex cursor-pointer items-center gap-x-5 font-poppins text-xl font-medium text-black"
               >
                 <FaAngleDown />
                 {lanDrop && (
-                  <List className="absolute top-9 right-[3px] w-[150px] bg-black py-3 px-5 ">
+                  <List className="absolute top-9 right-[3px] w-[150px] bg-[#FA7225] z-10 ">
                     <Listitem
-                      className="w-full hover:bg-slate-400"
+                      className="w-full py-3 px-3 text-center font-poppins text-base font-medium hover:bg-primaryHover hover:text-white"
                       itemname="Eng"
                     />
                     <Listitem
-                      className="w-full hover:bg-slate-400"
+                      className="w-full py-3 px-3 text-center font-poppins text-base font-medium hover:bg-primaryHover hover:text-white"
                       itemname="USA"
                     />
                     <Listitem
-                      className="w-full hover:bg-slate-400"
+                      className="w-full py-3 px-3 text-center font-poppins text-base font-medium hover:bg-primaryHover hover:text-white"
                       itemname="Ind"
                     />
                     <Listitem
-                      className="w-full hover:bg-slate-400"
+                      className="w-full py-3 px-3 text-center font-poppins text-base font-medium hover:bg-primaryHover hover:text-white"
                       itemname="Ban"
                     />
                   </List>
                 )}
               </Dropdwon>
-              {/* <option className="bg-none">
-                <option value="">Eng</option>
-              </option> */}
               <button className="rounded-lg bg-[#FA7225] py-2 px-2.5 text-white">
                 Sign In
               </button>

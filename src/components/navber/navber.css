@@ -1,3 +1,8 @@
+.navmain{
+    position: absolute;
+    top: 0;
+}
+
 .navber{
     display: flex;
     justify-content: center;

@@ -8,18 +8,3 @@
 	margin: 0;
 	padding: 0;
 }
-
-body {
-	font-family: "Oswald", sans-serif;
-	font-family: "Poppins", sans-serif;
-	background-color: var(--primary);
-	overflow-x: hidden;
-	position: relative;
-}
-
-:root {
-	--primary: #08173d;
-	--primaryHover: #fbba15;
-	--primaryG: rgb(212, 68, 68);
-	--darkBlue: #06021a;
-}

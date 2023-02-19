@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div>
         <Container>
-            <div className='text-white'>Footer part</div>
+            <div className='text-black'>Footer part</div>
         </Container>
     </div>
   )

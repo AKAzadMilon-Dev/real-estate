@@ -8,9 +8,12 @@ module.exports = {
       maxWidth: {
         container: "1260px",
       },
+      fontFamily: {
+        poppins: ["Poppins", "sans-serif"],
+      },
       colors: {
-        "primary": "var(--primary)",
-        "primaryHover": "var(--primaryHover)",
+        "primary": "#FA7225",
+        "primaryHover": "#49D7D8",
         "primaryG": "var(--primaryG)",
         "primaryLight": "var(--primaryLight)"
       }
