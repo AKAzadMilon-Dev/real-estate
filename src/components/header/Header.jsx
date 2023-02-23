@@ -7,9 +7,9 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <div className="main w-full bg-[#FA7225] py-3">
+    <div className="main w-full bg-primary py-3">
       <Container>
-        <div className="header flex items-center justify-between ">
+        <div className="header flex items-center justify-between font-poppins font-semibold text-sm ">
           <h3>youremail@gmail.com</h3>
           <div className="flex items-center gap-x-5">
             <Link to="#">

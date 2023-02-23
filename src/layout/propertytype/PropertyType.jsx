@@ -8,7 +8,7 @@ import { TfiAngleDown } from "react-icons/tfi";
 
 const PropertyType = () => {
   return (
-    <div className="py-24">
+    <div className="py-16">
       <Container>
         <div>
           <ul className="mb-1 flex w-[439px] items-center justify-between px-6 shadow-md rounded-md outline-none">
