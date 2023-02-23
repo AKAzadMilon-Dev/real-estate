@@ -33,6 +33,16 @@
   position: relative;
 }
 
+.nav-dis{
+  position: absolute;
+  top: 0;
+  
+}
+
+.banner-container{
+  width: 1260px;
+}
+
 .bannertop{
   width: 100%;
   height: 100vh;
